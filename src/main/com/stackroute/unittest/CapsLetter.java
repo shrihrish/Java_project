@@ -1,0 +1,17 @@
+package com.stackroute.unittest;
+
+public class CapsLetter {
+
+            public String capitalL(char c) {
+            if (Character.isUpperCase(c)) {
+                return "Capital letter";
+            } else if (Character.isLowerCase(c)) {
+                return "Lower case letter";
+            } else if (Character.isDigit(c)) {
+                return "Digit";
+            } else {
+                return "Special Character";
+            }
+        }
+    }
+
